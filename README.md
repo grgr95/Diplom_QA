@@ -8,15 +8,15 @@
 [Ссылка на Дипломное задание](https://github.com/netology-code/qa-diploma).
 
 ## Тестовая документация
-1. [План тестирования](https://github.com/grgr95/diplom/blob/master/documents/plan.md);
-1. [Отчёт по итогам тестирования](https://github.com/grgr95/diplom/blob/master/documents/report.md);
-1. [Отчет по итогам автоматизации](https://github.com/grgr95/diplom/blob/master/documents/summary)
+1. [План тестирования](https://github.com/grgr95/Diplom_QA/blob/master/documents/plan.md);
+1. [Отчёт по итогам тестирования](https://github.com/grgr95/Diplom_QA/blob/master/documents/report.md);
+1. [Отчет по итогам автоматизации](https://github.com/grgr95/Diplom_QA/blob/master/documents/summary)
 
 ## Запуск приложения
 ### Подготовительный этап
 1. Установить и запустить IntelliJ IDEA;
 1. Установать и запустить Docker Desktop;
-1. Скопировать репозиторий с Github [по ссылке](git@github.com:grgr95/diplom.git).
+1. Скопировать репозиторий с Github [по ссылке](https://github.com/grgr95/Diplom_QA).
 1. Открыть проект в IntelliJ IDEA.
 
 ### Запуск тестового приложения
