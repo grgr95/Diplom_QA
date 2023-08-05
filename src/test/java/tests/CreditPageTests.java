@@ -226,7 +226,7 @@ public class CreditPageTests {
         var cardInfo = DataHelper.getIgnoreTheCardNumbers();
         var creditPage = startPage.goToCreditPage();
         creditPage.insertCardData(cardInfo);
-        creditPage.checkApprovedNotification();
+        creditPage.checkWrongFormatNotification();
         assertEquals("0", SQLHelper.getCreditRequestStatus());
     }
 
@@ -236,7 +236,7 @@ public class CreditPageTests {
         var cardInfo = DataHelper.getIgnoreTheCardMonth();
         var creditPage = startPage.goToCreditPage();
         creditPage.insertCardData(cardInfo);
-        creditPage.checkApprovedNotification();
+        creditPage.checkWrongFormatNotification();
         assertEquals("0", SQLHelper.getCreditRequestStatus());
     }
 
@@ -246,7 +246,7 @@ public class CreditPageTests {
         var cardInfo = DataHelper.getIgnoreTheCardYear();
         var creditPage = startPage.goToCreditPage();
         creditPage.insertCardData(cardInfo);
-        creditPage.checkApprovedNotification();
+        creditPage.checkWrongFormatNotification();
         assertEquals("0", SQLHelper.getCreditRequestStatus());
     }
 
@@ -256,7 +256,7 @@ public class CreditPageTests {
         var cardInfo = DataHelper.getIgnoringTheCaldholder();
         var creditPage = startPage.goToCreditPage();
         creditPage.insertCardData(cardInfo);
-        creditPage.checkApprovedNotification();
+        creditPage.checkWrongFormatNotification();
         assertEquals("0", SQLHelper.getCreditRequestStatus());
     }
 
@@ -266,7 +266,7 @@ public class CreditPageTests {
         var cardInfo = DataHelper.getIgnoreCvvCards();
         var creditPage = startPage.goToCreditPage();
         creditPage.insertCardData(cardInfo);
-        creditPage.checkApprovedNotification();
+        creditPage.checkWrongFormatNotification();
         assertEquals("0", SQLHelper.getCreditRequestStatus());
     }
 }
