@@ -25,13 +25,13 @@
 Количество тест-кейсов = 48, успешных/неуспешных 56.25%/43.75% (21 упавшийтест-кейс)
 
 ## Cводный отчет из фреймворка Allure:
-[![allure.png](https://i.postimg.cc/MT591bYP/allure.png)](https://postimg.cc/BL850FkH)
+[![allure.png](https://i.postimg.cc/d16r41nw/allure.png)](https://postimg.cc/ph9mdPg6)
 
 ## Отчет CreditTests:
-[![creditpage.png](https://i.postimg.cc/ZYBSJWKk/creditpage.png)](https://postimg.cc/8sS3HP6w)
+[![creditpage.png](https://i.postimg.cc/zXHBtvG5/creditpage.png)](https://postimg.cc/dLvwDqCS)
 
 ## Отчет OrderCardTests:
-[![orderpage.png](https://i.postimg.cc/7LGV5rCL/orderpage.png)](https://postimg.cc/cKWYzjBq)
+[![orderpage.png](https://i.postimg.cc/mgRPPRTs/orderpage.png)](https://postimg.cc/2Vcktsqc)
 
 
 ## Общие рекомендации:
